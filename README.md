@@ -1,6 +1,6 @@
 # chisel-least-mean-squares
 
-This is a base Least Means Squares (LMS) hardware implementation in Chisel.
+This is a basic Least Mean Squares (LMS) hardware implementation in Chisel.
 
 ## Adder Tree
 
