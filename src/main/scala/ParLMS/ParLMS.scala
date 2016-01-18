@@ -2,8 +2,6 @@ package ChiselLMS
 
 import Chisel._
 import util.Random
-import breeze.linalg._
-import breeze.numerics._
 
 class ParLMS(val featureLength : Int, val stepSize : Float) extends Module {
   def group[A](list : List[A], size : Int) : List[List[A]] = list.foldLeft( (List[List[A]](), 0) ) { (r, c) => 
